@@ -1,0 +1,38 @@
+.taskbar{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.info{
+    bottom: 0;
+    background-color: #C32270;
+    display:flex;
+}
+.address{
+    color: white;
+    padding-left: 20%;
+    margin: 50px, 20px, 20px;
+    width: 291px;
+    margin-top: 10px;
+    
+}
+
+.object{
+    color: white;
+    padding-top: 70px;
+    padding-left: 60px;
+    
+}
+
+.contact{
+    display: flex;
+    padding-left: 50px;
+}
+.container{
+    width: 1140px;
+    height: 550px;
+    padding-left: 20%;
+    display: flex;
+}
+.container img{
+    display: flex;
+}

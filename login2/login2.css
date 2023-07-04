@@ -1,0 +1,70 @@
+
+.taskbar{
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
+.info{
+    bottom: 0;
+    background-color: #C32270;
+    display:flex;
+}
+.back{
+    margin: 0px 0px 0px;
+    padding-top: 0;
+    text-align: right;
+    cursor: pointer;
+}
+.anipic{
+    padding-left: 20%;
+    width: 100%;
+    height: auto;
+    
+}
+.Board{
+    padding-left: 20%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+.pic{
+    width 20%;
+    height: 220px;
+}
+.no1{
+    left:0;
+}
+.no2{
+    left: 20%;
+}
+.no3{
+    left:40%;
+}
+.no4{
+    left:60%;
+}
+.no5{
+    left:80%;
+}
+.address{
+    color: white;
+    padding-left: 20%;
+    margin: 50px, 20px, 20px;
+    width: 291px;
+    margin-top: 10px;
+    
+}
+
+.object{
+    color: white;
+    padding-top: 70px;
+    padding-left: 25px;
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    padding-left: 50px;
+}

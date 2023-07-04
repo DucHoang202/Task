@@ -1,0 +1,53 @@
+.taskbar{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.info{
+    bottom: 0;
+    background-color: #C32270;
+    display:flex;
+}
+.address{
+    color: white;
+    padding-left: 20%;
+    margin: 50px, 20px, 20px;
+    width: 291px;
+    margin-top: 10px;
+    
+}
+
+.object{
+    color: white;
+    padding-top: 70px;
+    padding-left: 60px;
+    
+}
+
+.contact{
+    display: flex;
+    padding-left: 50px;
+}
+
+.dropdown {
+    padding-left: 57vh;
+    padding-top: 60px;
+    text-align: right;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    text-align: left;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
