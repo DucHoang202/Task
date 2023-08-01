@@ -15,7 +15,7 @@
         <img src="1.png" alt="Main" style="height: 108.8%; width: 60%;">
       </div>
       <div class="form">
-        <div class="back">&#8592 ĐĂNG NHẬP</div>
+        <div class="back"><a href="login1.html"> &#8592 ĐĂNG NHẬP</a></div>
         <div class="login">
           
           <div class="login-header">
@@ -28,26 +28,33 @@
           </div>
         </div>
       
-        <form class="login-form" action="login3.html" type="submit">
+        <form class="login-form" action="login1.html" type="submit">
           <div>
             <label for="username"></label>
-            <input id="userName" type="text" name="username" placeholder="&#128231 Email/Số điện thoại"value=""/>
+
+            <input id="nm" type="text" placeholder="&#128231 Email/Số điện thoại" value=""/>
             
             <span></span>
           </div>
           <div>
-            <label for="password"></label>
-            <input id="userPw" type="password" name="password" placeholder="&#128274 Mật khẩu" value=""/>
+            <label for="username"></label>
+            <input id="pw" type="password" placeholder="&#128274 Mật khẩu" value=""/>
+
             <span></span>
           </div>
+          <input type="text" placeholder="Họ và tên";/>
+          <input type="number" placeholder="Số điện thoại";/>
+          <input type="text" placeholder="Địa chỉ";/>
 
-          <a href="login3.html"><button id="log-in" value="Đăng nhập" onclick="check()">Đăng nhập</button></a>
-          <p class="message"><a href="#">Quên mật khẩu?</a></p>
-          <p class="message"><a href="register.html">Đăng kí</a></p>
+          <br>
+          <button id="rgstr_btn" type="submit" value="ĐĂNG KÍ" onclick="store()">ĐĂNG KÍ</button>
+
+
         </form>
       </div>
     </div>
-    <script src="login.js"></script>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script src="register.js"></script>
 </body>
-</body>
+
 </html>
